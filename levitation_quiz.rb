@@ -5,6 +5,7 @@ loop do
   puts "What is the spell that enacts levitation?"
   reply = gets.chomp
   break if reply == "Wingardium Leviosa"
+  puts "You passed the quiz!"
 
 end
 end
